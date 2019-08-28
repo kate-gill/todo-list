@@ -1,0 +1,115 @@
+body {
+    font-family: 'Hepta Slab', serif;
+    color: #343434;
+    background: #d9a7c7;  
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 15px;
+}
+
+li.editMode .editor {
+    display: inline;
+    outline: none;
+}
+
+.card {
+    margin: 0 auto;
+    width: 30.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card-img-top {
+    height: 28vh;
+}
+
+#compLst {
+    margin-top: 16px;
+    margin-bottom: 1px;
+    width: 27rem;
+}
+
+#wrapper {
+    margin-bottom: 17px;
+}
+
+#mainForm {
+    display: inline;
+}
+
+#todoInput {
+    outline: none;
+    width: 85%;
+    padding: 8px;
+}
+
+#btnAdd {
+    font-size: 30px;
+    border: 1px dotted grey;
+    border-radius: 10%;
+}
+
+#title {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    padding: 8px;
+}
+
+.todoStyle {
+    padding: 1px;
+    font-size: 14px;
+}
+
+#btnComp {
+    text-align: center;
+    width: 40%;
+    margin-top: 16px;
+    margin-left: 30%;
+    padding: 6px;
+    border: 1px dotted grey;
+}
+
+#btnDel {
+    text-align: center;
+    width: 35%;
+    margin-left: 32.5%;
+    margin-top: 17px;
+    border: 1px dotted grey;
+}
+
+.btnNew {
+    border: 1px dotted grey;
+    font-size: 12px;
+    padding: 4px;
+    margin: 2px;
+    float: right;
+}
+
+.editor {
+    float: top;
+    display: none;
+    width: 66%;
+}
+
+.hidden {
+    display: none;
+}
+
+#p1, #p2 {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.hrLine {
+    margin: 2px;
+}
